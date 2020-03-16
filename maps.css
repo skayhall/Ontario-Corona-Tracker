@@ -1,0 +1,359 @@
+/*GLOBAL SYYLES*/
+
+
+#map {
+    height:500px;
+    width:70%;
+    border:0px solid red;
+    padding:0;
+    margin:0 auto;
+    margin-top:40px;
+    margin-bottom:40px;
+    /*border-radius: 20px;*/
+}
+
+#mainimage-bacteria {
+
+    margin:0 auto;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+html {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Lato';
+    font-size: 1em;
+    color:#1F1F1F;
+    margin:0;
+    padding:0;
+    letter-spacing:0.25px;
+    line-height:1.5em;
+}
+
+.navlettering {
+    letter-spacing:1px;
+}
+
+h5 {
+    font-size: 1em;
+    font-weight:bold;
+}
+
+header {
+    background-color:#F2E0D0;
+    border-bottom:0px solid #F4F3F0;
+    height:75%;
+}
+
+.wrapper {
+    max-width:1000px;
+    margin:0 auto;
+    border:0px solid green;	
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.sectionhead {
+    font-size:2em;
+    font-family: 'Lato';
+    font-weight:bold;
+    color:#131418; 
+    text-align:center;
+    letter-spacing:3px;
+    padding-bottom:30px;
+    padding-top:50px;
+}
+
+.subtitle_par {
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:10px;
+}  
+
+
+    /*main links*/
+
+    a {
+        color:#AE2538;
+        text-decoration:none;
+    }
+
+    a:hover {
+        color:#F89580;
+        text-decoration: none;
+    }
+
+    a:active {
+        color:#F89580; 
+    }
+
+
+/*TABLET - HEADER STYLES*/
+
+@media (max-width: 800px) {
+
+    #mainimage-bacteria {
+        margin:0 auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        /*width:60%;*/
+    }
+
+}
+
+
+/*PHONE - GLOBAL SYYLES*/
+
+@media (max-width:630px) {
+    
+    .sectionhead {
+        font-size:1.75em;
+        font-family:'Lato';
+        font-weight:bold;
+        color:#6A5106; 
+        text-align:center;
+        letter-spacing:3px;
+        padding-bottom:30px;
+    }
+
+    #mainimage-bacteria {
+        margin:0 auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        /*width:60%;*/
+    }
+
+
+}
+
+/*HEADER STYLES*/
+
+#coronatitle {
+    font-size:3.5em;
+    font-family:'Raleway';
+    font-weight:bold;
+    text-align:center;
+    letter-spacing:3px;
+    padding-top:60px;
+    padding-bottom:30px;
+    width:100%;
+    border:0px solid blue;
+    margin:0 auto;
+    color:#EC5568;
+}
+
+#coronatitle-desc {
+    letter-spacing:2px;
+    text-align:center;
+    color:#131418;
+    margin:0 auto;
+    width:90%;
+}
+
+.main-secondcolor {
+    font-size:1em;
+    font-family:'Lato';
+    font-weight:bold;
+    color:#131418;
+}
+
+
+.headercontainer {
+    background:#A6837B;
+}
+
+
+#main-header {
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+
+
+/*TABLET - HEADER STYLES*/
+
+@media (max-width: 800px) {
+
+    #coronatitle {
+        font-size:3em;
+        font-family:'Lato';
+        font-weight:bold;
+        text-align:center;
+        letter-spacing:3px;
+        padding-top:60px;
+    }
+
+    #top-yellowbackground {
+        background:#FFCA00;
+        height:250px;
+    }
+
+
+}
+
+
+/*PHONE - HEADER STYLES*/
+
+@media (max-width:630px) {
+    
+    #coronatitle {
+        font-size:2.5em;
+        font-family:'Lato';
+        font-weight:bold;
+        text-align:center;
+        letter-spacing:3px;
+        padding-top:60px;
+    }
+
+    #coronatitle-desc {
+        letter-spacing:2px;
+        text-align:center;
+        color:#131418;
+        margin:0 auto;
+        width:100%;
+    }
+
+}
+
+/*MAIN SECTION STYLES - about covid*/
+
+
+#section-aboutcovid {
+    background:#FFFFFF;
+    border-radius:15px;
+    bottom:140px;
+    text-align:center;
+    margin-top:10px;
+    letter-spacing:0.50px;
+    width:70%;
+}
+
+#aboutcovidhead {
+    padding-top:50px;
+    font-size: 2em;
+    font-family:'Lato';
+    font-weight:bold;
+    text-align:center;
+    letter-spacing:3px;
+}
+
+#aboutcoviddesc {
+    text-align: center;
+}
+
+#sectionhead-skills {
+    font-size:2em;
+    font-family:'Jura', sans-serif;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    letter-spacing:3px;
+}
+
+
+/*TABLET - MAIN SECTION STYLES - about me and skills*/
+
+@media (max-width: 800px) {
+
+    
+    #aboutcovidcontainer {
+        margin-top:0px;
+        height:100%;
+    }
+
+    #section-aboutcovid {
+        background:#FFFFFF;
+        border-radius:0px;
+        position:static;
+        bottom:0px;
+        text-align:center;
+        width:90%;
+    }
+    
+    #aboutcoviddesc {
+        text-align:left;
+    }
+    
+
+}
+
+
+/*PHONE - GLOBAL SYYLES*/
+
+@media (max-width:630px) {
+    
+    #aboutcovidhead{
+        font-size:1.75em;
+    }
+
+}
+
+
+
+/*FOOTER STYLES*/
+
+
+footer {
+    background:#EC5568;
+}
+
+.footerheader {
+    font-family:'Jura', sans-serif;
+    font-weight:bold;
+    font-size:1em;
+    color:#1F1F1F;
+}
+
+
+#flex-first-footer {
+    display:flex;
+    justify-content:flex-start;
+}
+
+#footer-wrapper {
+    max-width:1000px;
+    margin:0 auto; 
+    padding-left:40px;
+    padding-right:40px;
+}
+
+
+#last-footer {
+    background:#EC5568;
+    color:#131418;
+    font-size:.80em;
+    letter-spacing: 1px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    justify-content:center;
+}
+
+
+/*PHONE - FOOTER STYLES*/
+
+@media (max-width:630px) {
+    
+    #flex-first-footer {
+        display:flex;
+        flex-direction:column;
+    }
+
+
+    /*PHONE - FOOTER STYLES*/
+
+    .footerheader-connected {
+        margin-top:5%;
+    }
+
+
+}
+
+.lastfootertext {
+    margin-top:2%;
+}

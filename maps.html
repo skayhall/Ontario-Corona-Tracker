@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ontario Coronavirus Tracker</title>
+        <link rel="shortcut icon" href="favicon.png" type="image/png">
+        <!--Metadata-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Ontario Cononavirus Tracker">
+        <meta name="keywords" content="Coronavirus, Covid-19, Ontario, Tracker">
+        <meta name="author" content="Shanakay Hall">
+        <!--Optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!--Links to stylesheets-->
+        <link rel="stylesheet" type="text/css" href="maps.css">
+        <style>
+          @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display|Raleway:400,700&display=swap');
+        </style>
+    </head>
+
+    <body>
+
+    <!--HEADER SECTION - logo, main links, and main header-->
+
+        <header>
+            <div class="headercontainer">    
+
+
+                <div class="wrapper">
+                    
+                  <nav class="navbar navbar-expand-sm navbar-dark navlettering">
+                    <a href="#" class="navbar-brand"><img src="sick.png" id="logo" alt="Track Corona"></a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainnavbarMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="mainnavbarMenu">
+                        <ul class="navbar-nav">
+                          <li class="nav-item justify-content-end">
+                            <a href="#aboutcorona" class="nav-link">About</a>
+                          </li>
+                            <li class="nav-item justify-content-end">
+                                <a href="#stats" class="nav-link">Stats</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="#news" class="nav-link">Latest News</a>
+                            </li>
+                            <li class="nav-item justify-content-end">
+                              <a href="#contact" class="nav-link">Contact</a>
+                          </li>
+                        </ul>
+                    </div>
+                  </nav>
+
+                </div>
+
+            </div>
+
+
+
+            <div id="main-header" class="wrapper">
+                <div>
+                  <h1 id="coronatitle">Ontario <span class="main-secondcolor">Coronavirus Cases</span></h1>
+                  <p id="coronatitle-desc">The latest information on the novel Coronavirus in Ontario.</p>
+
+                  <div class="pormaincon">
+
+                  </div>
+                
+                  <!--<div id="map">
+                                 
+                  </div>-->
+
+                  <img src="virus2.png" id="mainimage-bacteria">
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+    
+    <!--MAIN SECTION START HERE - about me and skills-->
+
+         <main>
+
+
+    <!--STATS SECTION-->
+
+
+            <div class="section-aboutcovid wrapper">
+
+               <div class="card-deck">
+                  <div class="card border-0">
+                  <div class="card-body text-center">
+                     <h2 class="card-title">137</h2>
+                     <h4 class="card-text">Confirmed</h4>
+                  </div>
+                  </div>
+                  <div class="card border-0">
+                  <div class="card-body text-center">
+                     <h2 class="card-title">5</h2>
+                     <h4 class="card-text">Recovered</h4>
+                  </div>
+                  </div>
+                  <div class="card border-0">
+                  <div class="card-body text-center">
+                     <h3 class="card-title">0</h3>
+                     <h4 class="card-text">Dead</h4>
+                  </div>
+                  </div>
+               </div>
+               
+            </div>
+
+
+      <!--ABOUT CORONAVIRUS SECTION-->
+            
+
+               <div id="aboutcovidcontainer">
+
+                  <div id="section-aboutcovid" class="wrapper">
+
+                     <h2 class="sectionhead" id="aboutcorona">About the Virus</h2>
+                     <h4>What is it?</h4>
+                     <p id="aboutcoviddesc">Coronaviruses also known as Covid-19 are a large family of viruses that can cause illnesses ranging from the common cold to more serious respiratory infections like bronchitis, pneumonia or severe acute respiratory syndrome (SARS). 
+                        
+                     <h4>Where did it come from?</h4>
+                     <p>The virus originated in Wuhan, China.</p>
+                     </p>
+
+                  </div>
+
+               </div>
+
+               <div id="map">
+                                    
+               </div>
+
+         </main>
+
+
+   </body>
+
+    <!-- FOOTER STYLES --> 
+
+    <footer>
+        <div id="footer-wrapper">
+
+            <div id="last-footer">
+               <div class="wrapper">
+                  <p class="lastfootertext">Website designed and developed by <a href="https://www.shanakayhall.codes" target="new">Shanakay Hall</a> &copy; 2020
+                  | Credits: <a href="https://www.ontario.ca/page/2019-novel-coronavirus" target="new">Ontario Website</a></p>
+               </div>
+            </div> 
+
+        </div> 
+    </footer>
+
+
+   <!-- BOOTSTRAP CDN & JQUERY CODE -->
+
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+   <!-- JS CDN CODE -->
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
+   <script src="mapsscript.js"></script>
+
+
+   <!--Google Map API -->
+   <script async defer
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDweZrwHfobfxVg9YK18m_tmxE2TrvyWQM&callback
+   =initMap">
+   </script>
+
+
+</html>
