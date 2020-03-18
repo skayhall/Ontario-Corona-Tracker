@@ -3,17 +3,27 @@
     <head>
         <title>Ontario Coronavirus Tracker</title>
         <link rel="shortcut icon" href="favicon.png" type="image/png">
+
         <!--Metadata-->
         <meta charset="UTF-8">
         <meta name="description" content="Ontario Cononavirus Tracker">
-        <meta name="keywords" content="Coronavirus, Covid-19, Ontario, Tracker">
+        <meta name="keywords" content="Coronavirus, Covid-19, Covid-19 Cases, Ontario, Canada, Tracker">
         <meta name="author" content="Shanakay Hall">
+
         <!--Optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!--Bootstrap CDN-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!--JQuery CDN + JQuery Library and scrolller CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script src="numscroller-1.0.js"></script>
+
         <!--Links to stylesheets-->
-        <link rel="stylesheet" type="text/css" href="maps.css">
+        <link rel="stylesheet" type="text/css" href="covidtracker.css">
         <style>
           @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display|Raleway:400,700&display=swap');
         </style>
@@ -60,8 +70,8 @@
 
             <div id="main-header" class="wrapper">
                 <div>
-                  <h1 id="coronatitle">Ontario <span class="main-secondcolor">Coronavirus Cases</span></h1>
-                  <p id="coronatitle-desc">The latest information on the novel Coronavirus in Ontario.</p>
+                  <h1 id="coronatitle">Ontario <span class="main-secondcolor">Coronavirus Tracker</span></h1>
+                  <p id="coronatitle-desc">The latest information on cases in Ontario.</p>
 
                   <div class="pormaincon">
 
@@ -81,7 +91,7 @@
 
 
     
-    <!--MAIN SECTION START HERE - about me and skills-->
+    <!--MAIN SECTION START HERE - tracker, about covid, map, rss news-->
 
          <main>
 
@@ -94,19 +104,31 @@
                <div class="card-deck">
                   <div class="card border-0">
                   <div class="card-body text-center">
-                     <h2 class="card-title">137</h2>
+                     <h2 class="card-title">
+
+                        <span class='numscroller' data-min='1' data-max='180' data-delay='2' data-increment='1'>183</span>
+
+                     </h2>
                      <h4 class="card-text">Confirmed</h4>
                   </div>
                   </div>
                   <div class="card border-0">
                   <div class="card-body text-center">
-                     <h2 class="card-title">5</h2>
+                     <h2 class="card-title">
+
+                        <span class='numscroller' data-min='1' data-max='5' data-delay='2' data-increment='1'>5</span>
+
+                     </h2>
                      <h4 class="card-text">Recovered</h4>
                   </div>
                   </div>
                   <div class="card border-0">
                   <div class="card-body text-center">
-                     <h3 class="card-title">0</h3>
+                     <h3 class="card-title">
+
+                        <span class='numscroller' data-min='1' data-max='1' data-delay='2' data-increment='1'>1</span>
+
+                     </h3>
                      <h4 class="card-text">Dead</h4>
                   </div>
                   </div>
