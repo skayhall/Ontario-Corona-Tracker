@@ -12,7 +12,7 @@
     /*border-radius: 20px;*/
 }
 
-#mainimage-bacteria {
+#mainheadimage {
 
     margin:0 auto;
     margin-top:50px;
@@ -45,7 +45,12 @@ h5 {
 }
 
 header {
-    background-color:#F2E0D0;
+    /*background-color:#F2E0D0;*/
+    background-color: #FFFFFF;
+    background-image: url(covidbg.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
     border-bottom:0px solid #F4F3F0;
     height:75%;
 }
@@ -62,7 +67,7 @@ header {
     font-size:2em;
     font-family: 'Lato';
     font-weight:bold;
-    color:#131418; 
+    color:#29304e; 
     text-align:center;
     letter-spacing:3px;
     padding-bottom:30px;
@@ -76,20 +81,39 @@ header {
 }  
 
 
-    /*main links*/
+    /*main nav links*/
+
+    nav a {
+        color:#29304e;
+        text-decoration:none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color:#AE2538;
+        text-decoration: none;
+    }
+
+    nav a:active {
+        color:#AE2538; 
+    }
+
+
+
+    /*main website links*/
 
     a {
-        color:#AE2538;
+        color:#F89580;
         text-decoration:none;
     }
 
     a:hover {
-        color:#F89580;
+        color:#AE2538;
         text-decoration: none;
     }
 
     a:active {
-        color:#F89580; 
+        color:#AE2538; 
     }
 
 
@@ -97,7 +121,7 @@ header {
 
 @media (max-width: 800px) {
 
-    #mainimage-bacteria {
+    #mainheadimage {
         margin:0 auto;
         margin-top:50px;
         margin-bottom:50px;
@@ -121,7 +145,7 @@ header {
         padding-bottom:30px;
     }
 
-    #mainimage-bacteria {
+    #mainheadimage {
         margin:0 auto;
         margin-top:50px;
         margin-bottom:50px;
@@ -144,14 +168,14 @@ header {
     width:100%;
     border:0px solid blue;
     margin:0 auto;
-    color:#EC5568;
+    color:#F04338;
 }
 
 #coronatitle-desc {
     font-size:1.25em;
     letter-spacing:2px;
     text-align:center;
-    color:#131418;
+    color:#29304e;
     margin:0 auto;
     width:90%;
 }
@@ -160,12 +184,13 @@ header {
     font-size:1em;
     font-family:'Lato';
     font-weight:bold;
-    color:#131418;
+    color:#29304e;
 }
 
 
 .headercontainer {
-    background:#A6837B;
+    /*background:#A6837B;*/
+    background:transparent;
 }
 
 
@@ -173,7 +198,10 @@ header {
     display:flex;
     justify-content: center;
     text-align:center;
+    background-color: transparent;
+
 }
+
 
 
 /*TABLET - HEADER STYLES*/
@@ -222,17 +250,29 @@ header {
 
 }
 
-/*MAIN SECTION STYLES - about covid*/
+/*MAIN SECTION STYLES - stats and about covid*/
 
+.stats-num {
+    font-weight: bold;
+    color:#F04338;
+}
+
+#aboutcovidcontainer {
+    background-color: #f8faff;
+    /*border:1px solid green;*/
+}
 
 #section-aboutcovid {
-    background:#FFFFFF;
-    border-radius:15px;
+    background:#f8faff;
     bottom:140px;
-    text-align:center;
-    margin-top:10px;
+    text-align:left;
+    margin-top:50px;
+    padding-bottom:30px;
     letter-spacing:0.50px;
-    width:70%;
+    /*width:70%;*/
+    /*border:1px solid purple;*/
+    display:flex;
+    flex-direction: row;
 }
 
 #aboutcovidhead {
@@ -244,9 +284,39 @@ header {
     letter-spacing:3px;
 }
 
+
+.aboutcovid-a, .aboutcovid-b {
+
+    width:50%;
+    /*border:1px solid pink;*/
+
+}
+
+
+.aboutimage {
+    margin-bottom:50px;
+    padding-top:50px;
+
+}
+
+#aboutcorona {
+    font-size:2em;
+    font-family: 'Lato';
+    font-weight:bold;
+    color:#29304e; 
+    text-align:left;
+    letter-spacing:3px;
+    padding-bottom:30px;
+    padding-top:40px;
+}
+
+
+/*
+
 #aboutcoviddesc {
     text-align: center;
 }
+
 
 #sectionhead-skills {
     font-size:2em;
@@ -256,7 +326,7 @@ header {
     text-align:center;
     letter-spacing:3px;
 }
-
+*/
 
 /*TABLET - MAIN SECTION STYLES - about me and skills*/
 
@@ -301,7 +371,7 @@ header {
 
 
 footer {
-    background:#EC5568;
+    background:#29304E;
 }
 
 .footerheader {
@@ -326,8 +396,8 @@ footer {
 
 
 #last-footer {
-    background:#EC5568;
-    color:#131418;
+    background:#29304e;
+    color:#FFFFFF;
     font-size:.80em;
     letter-spacing: 1px;
     padding-top:10px;
