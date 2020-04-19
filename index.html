@@ -98,9 +98,12 @@
 
     <!--STATS SECTION-->
 
-   <p class="statsconfirmed">The current death total is: </p>
+ <!--
+   <p class="statsdead">The current death total is: </p>
    <p class="statsresolved">The current resolved cases is:</p>
    <p class="statstotal">The total number of cases is:</p>
+ -->
+
 
 
             <div class="section-aboutcovid wrapper">
@@ -110,7 +113,7 @@
                   <div class="card-body text-center">
                      <h2 class="card-title">
 
-                        <span class='numscroller stats-num' data-min='1' data-max='10010' data-delay='2' data-increment='1'>10010</span>
+                        <span class='numscroller stats-num stats-con' data-min='1' data-max='10010' data-delay='2' data-increment='1'></span>
 
                      </h2>
                      <h4 class="card-text">Confirmed</h4>
@@ -120,7 +123,7 @@
                   <div class="card-body text-center">
                      <h2 class="card-title">
 
-                        <span class='numscroller stats-num' data-min='1' data-max='4875' data-delay='2' data-increment='1'>4875</span>
+                        <span class='numscroller stats-num stats-reso' data-min='1' data-max='4875' data-delay='2' data-increment='1'></span>
 
                      </h2>
                      <h4 class="card-text">Recovered</h4>
@@ -130,7 +133,7 @@
                   <div class="card-body text-center">
                      <h3 class="card-title">
 
-                        <span class='numscroller stats-num' data-min='1' data-max='514' data-delay='2' data-increment='1'>514</span>
+                        <span class='numscroller stats-num stats-dead' data-min='1' data-max='514' data-delay='2' data-increment='1'></span>
 
                      </h3>
                      <h4 class="card-text">Dead</h4>
@@ -138,6 +141,10 @@
                   </div>
                </div>
                
+               <div class="lastupdated-con">
+                  <p class="lastupdated">Last updated on: </p>
+               </div>
+
             </div>
 
 
