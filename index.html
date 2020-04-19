@@ -20,7 +20,7 @@
         <!--JQuery CDN + JQuery Library and scrolller CDN-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="jquery-3.4.1.min.js"></script>
-        <script src="numscroller-1.0.js"></script>
+        <!--<script src="numscroller-1.0.js"></script>-->
 
         <!--Links to stylesheets-->
         <link rel="stylesheet" type="text/css" href="covidtracker.css">
@@ -98,6 +98,10 @@
 
     <!--STATS SECTION-->
 
+   <p class="statsconfirmed">The current death total is: </p>
+   <p class="statsresolved">The current resolved cases is:</p>
+   <p class="statstotal">The total number of cases is:</p>
+
 
             <div class="section-aboutcovid wrapper">
 
@@ -106,7 +110,7 @@
                   <div class="card-body text-center">
                      <h2 class="card-title">
 
-                        <span class='numscroller stats-num' data-min='1' data-max='8447' data-delay='2' data-increment='1'>8447</span>
+                        <span class='numscroller stats-num' data-min='1' data-max='10010' data-delay='2' data-increment='1'>10010</span>
 
                      </h2>
                      <h4 class="card-text">Confirmed</h4>
@@ -116,7 +120,7 @@
                   <div class="card-body text-center">
                      <h2 class="card-title">
 
-                        <span class='numscroller stats-num' data-min='1' data-max='3902' data-delay='2' data-increment='1'>3902</span>
+                        <span class='numscroller stats-num' data-min='1' data-max='4875' data-delay='2' data-increment='1'>4875</span>
 
                      </h2>
                      <h4 class="card-text">Recovered</h4>
@@ -126,7 +130,7 @@
                   <div class="card-body text-center">
                      <h3 class="card-title">
 
-                        <span class='numscroller stats-num' data-min='1' data-max='385' data-delay='2' data-increment='1'>385</span>
+                        <span class='numscroller stats-num' data-min='1' data-max='514' data-delay='2' data-increment='1'>514</span>
 
                      </h3>
                      <h4 class="card-text">Dead</h4>
@@ -204,14 +208,24 @@
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
-   <script src="mapsscript.js"></script>
+
+   <!--STATS API-->
+   <script src="statsscript.js"></script>
+   <!--
+   <script async defer
+   src="https://api.smartable.ai/coronavirus/stats/CA-ON HTTP/1.1Cache-Control: no-cacheSubscription-Key: fa4cb3e91fa04405b764206734f8bfa6">
+   </script>
+   -->
 
 
    <!--Google Map API -->
+   <script src="mapsscript.js"></script>
    <script async defer
    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDweZrwHfobfxVg9YK18m_tmxE2TrvyWQM&callback
    =initMap">
    </script>
+
+
 
 
 </html>
