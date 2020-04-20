@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Ontario Coronavirus Tracker</title>
-        <link rel="shortcut icon" href="virussplat.png" type="image/png">
+        <link rel="shortcut icon" href="assets/virussplat.png" type="image/png">
 
         <!--Metadata-->
         <meta charset="UTF-8">
@@ -19,11 +19,11 @@
 
         <!--JQuery CDN + JQuery Library and scrolller CDN-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="jquery-3.4.1.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
         <!--<script src="numscroller-1.0.js"></script>-->
 
         <!--Links to stylesheets-->
-        <link rel="stylesheet" type="text/css" href="covidtracker.css">
+        <link rel="stylesheet" type="text/css" href="css/covidtracker.css">
         <style>
           @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display|Raleway:400,700&display=swap');
         </style>
@@ -40,7 +40,7 @@
                 <div class="wrapper">
                     
                   <nav class="navbar navbar-expand-sm navbar-light navlettering">
-                    <a href="#" class="navbar-brand"><img src="virussplat.png" id="logo" alt="Track Corona"></a>
+                    <a href="#" class="navbar-brand"><img src="assets/virussplat.png" id="logo" alt="Track Corona"></a>
                     <button class="navbar-toggler" data-toggle="collapse" data-target="#mainnavbarMenu">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -81,7 +81,7 @@
                                  
                   </div>-->
 
-                  <img src="corpeople.png" id="mainheadimage">
+                  <img src="assets/corpeople.png" id="mainheadimage">
 
                 </div>
 
@@ -131,11 +131,11 @@
                   </div>
                   <div class="card border-0">
                   <div class="card-body text-center">
-                     <h3 class="card-title">
+                     <h2 class="card-title">
 
                         <span class='numscroller stats-num stats-dead' data-min='1' data-max='514' data-delay='2' data-increment='1'></span>
 
-                     </h3>
+                     </h2>
                      <h4 class="card-text">Dead</h4>
                   </div>
                   </div>
@@ -156,7 +156,7 @@
                   <div id="section-aboutcovid" class="wrapper">
                      <div class="aboutcovid-a">
 
-                        <img src="virus2.png" class="aboutimage">
+                        <img src="assets/virusesfloating.png" class="aboutimage">
 
                      </div>   
                      <div class="aboutcovid-b">
@@ -167,7 +167,7 @@
                         <h4>What is it?</h4>
                         <p id="">Coronaviruses also known as Covid-19 are a large family of viruses that can cause illnesses ranging from the common cold to more serious respiratory infections like bronchitis, pneumonia or severe acute respiratory syndrome (SARS). 
                         
-                        <h4>Where did it come from?</h4>
+                        <h4>Where did it start?</h4>
                         <p>The virus originated in Wuhan, China.</p>
 
                         </p>
@@ -194,7 +194,7 @@
                <div class="wrapper">
                   <p class="lastfootertext">Website designed and developed by <a href="https://www.shanakayhall.codes" target="new">Shanakay Hall</a> &copy; 2020 |
                   
-                  Credits: <a href="https://www.ontario.ca/page/2019-novel-coronavirus" target="new">Ontario Website</a>, <a href="https://www.freepik.com/free-vector/illustration-with-coronavirus-concept_7224909.htm#page=2&query=coronavirus&position=25" target="new">Freepik</a></p>
+                  Credits: <a href="https://www.ontario.ca/page/2019-novel-coronavirus" target="new">Ontario Website</a>, <a href="https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11" target="new">Ontario Covid-19 Data API</a>, <a href="https://www.freepik.com/free-vector/illustration-with-coronavirus-concept_7224909.htm#page=2&query=coronavirus&position=25" target="new">Freepik</a></p>
                </div>
             </div> 
 
@@ -217,7 +217,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
 
    <!--STATS API-->
-   <script src="statsscript.js"></script>
+   <script src="js/statsscript.js"></script>
    <!--
    <script async defer
    src="https://api.smartable.ai/coronavirus/stats/CA-ON HTTP/1.1Cache-Control: no-cacheSubscription-Key: fa4cb3e91fa04405b764206734f8bfa6">
@@ -226,7 +226,7 @@
 
 
    <!--Google Map API -->
-   <script src="mapsscript.js"></script>
+   <script src="js/mapsscript.js"></script>
    <script async defer
    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDweZrwHfobfxVg9YK18m_tmxE2TrvyWQM&callback
    =initMap">
