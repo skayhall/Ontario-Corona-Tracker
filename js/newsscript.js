@@ -4,13 +4,15 @@ $.getJSON("https://cors-anywhere.herokuapp.com/http://newsapi.org/v2/top-headlin
 console.log(data);
 
 
-
+    //grabs news article source
     var newsarticlesource = data.articles[data.articles.length-1].source.name;
     //console.log("The news article source is " + newsarticlesource);
 
+    //grabs news article title
     var newsarticletitle = data.articles[data.articles.length-1].title;
     //console.log("The news article title is " + newsarticletitle);
 
+    //grabs news article description
     var newsarticledesc = data.articles[data.articles.length-1].description;
     //console.log("The news article is " + newsarticledesc);
 
@@ -32,23 +34,13 @@ console.log(data);
     for (var i = 0; i < 4; i++) {
         console.log('The 4 news articles are: ' + newsarticles[i].title + newsarticles[i].description + newsarticles[i].url + newsarticles[i].source.name);
         
-        output += '<div class="articlecon">' + '<div class="articlecon-c">' + '<b>' + newsarticles[i].title + '</b>' + '<br>' + newsarticles[i].description + '<br><br>' + '<a href="' + newsarticles[i].url + '" target="new">Read More</a>' + '</div>' + '</div>';
+        //outputs the values 
+        output += '<div class="articlecon">' + '<div class="articlecon-c">' + '<b>' + newsarticles[i].title + '</b>' + '<br>' + newsarticles[i].description + '<br><br>' + '<a href="' + newsarticles[i].url + '" target="new">More Info</a>' + '</div>' + '</div>';
 
     }
 
-    //display the results in the artles section on the page
+    //display the results in the articles section 
     document.getElementById('articles').innerHTML = output;
-
-
-    //$('.articleimage').attr('src', articleimage);
-    //$('.article-source').append(newsarticlesource);
-    //$('.article-title').append(newsarticletitle);
-    //$('.article-desc').append(newsarticledesc);
-    //$('.newsarticles').append(newsarticles);
-
-    //$('.article-image').append(articleimage);
-
-
 
 
 

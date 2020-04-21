@@ -4,6 +4,7 @@
 
 
 
+      //stores the stats
       var laststats = data.result.records.length;
       //var statstot =  data.result.laststats.Deaths;
       //var lastitem = laststats[laststats.length -1];
@@ -28,6 +29,7 @@
       var lastupdated = data.result.records[data.result.records.length-1]["Reported Date"];
 
 
+      //attaches the stats to the appropriate section in HTML
       $('.stats-dead').append(statsdead);
       $('.stats-reso').append(statsreso);
       $('.stats-con').append(statstotal);
@@ -36,24 +38,3 @@
 
   });
 
-
-
-/*
-
-var data = {
-    resource_id: 'ed270bb8-340b-41f9-a7c6-e8ef587e6d11', // the resource id
-    limit: 5 // get 5 results
-    //q: 'jones' // query for 'jones'
-  };
-  $.ajax({
-    url: 'https://data.ontario.ca/api/3/action/datastore_search',
-    data: data,
-    dataType: 'jsonp',
-    success: function(data) {
-      alert('Total results found: ' + data.result.total)
-    }
-  });
-
-  console.log(data);
-
-*/
