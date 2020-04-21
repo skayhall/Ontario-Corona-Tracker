@@ -35,7 +35,7 @@ console.log(data);
         console.log('The 4 news articles are: ' + newsarticles[i].title + newsarticles[i].description + newsarticles[i].url + newsarticles[i].source.name);
         
         //outputs the values 
-        output += '<div class="articlecon">' + '<div class="articlecon-c">' + '<b>' + newsarticles[i].title + '</b>' + '<br>' + newsarticles[i].description + '<br><br>' + '<a href="' + newsarticles[i].url + '" target="new">More Info</a>' + '</div>' + '</div>';
+        output += '<div class="articlecon">' + '<div class="articlecon-c">' + '<b>' + newsarticles[i].title + '</b>' + '<br>' + newsarticles[i].description + '<br>' + '<a href="' + newsarticles[i].url + '" target="new">More Info</a>' + '</div>' + '</div>';
 
     }
 
