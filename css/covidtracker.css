@@ -47,7 +47,7 @@ h5 {
 header {
     /*background-color:#F2E0D0;*/
     background-color: #FFFFFF;
-    background-image: url(covidbg.png);
+    background-image: url(assets/covidbg.png);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -332,7 +332,7 @@ header {
 }
 */
 
-/*TABLET - MAIN SECTION STYLES - about me and skills*/
+/*TABLET - MAIN SECTION STYLES - stats and about covid*/
 
 @media (max-width: 800px) {
 
@@ -369,6 +369,47 @@ header {
 
 }
 
+
+/*NEWS SECTION*/
+
+.allarticlescon {
+    margin-top:30px;
+
+}
+
+.articlecon {
+    display:flex;
+    flex-direction: row;
+    margin-bottom:30px;
+
+}
+
+.articlecon-c {
+    background-color:#FFFFFF;
+    margin-bottom:10px;
+    width:100%;
+    text-align:left;
+    /*border:1px solid red;*/
+}
+
+
+/*.articletitle {
+    font-weight: bold;
+}
+*/
+
+
+#newsarticles {
+    font-size:2em;
+    font-family: 'Lato';
+    font-weight:bold;
+    color:#29304e; 
+    text-align:center;
+    letter-spacing:3px;
+    padding-bottom:30px;
+    padding-top:40px;
+
+}
 
 
 /*FOOTER STYLES*/
@@ -432,4 +473,5 @@ footer {
 
 .lastfootertext {
     margin-top:2%;
+    text-align: center;
 }

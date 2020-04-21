@@ -1,5 +1,9 @@
     // Function to be executed 
+    
+    
     function initMap() {
+
+        
         var humber = {
             lat: 43.7291338,
             lng: -79.6087013
@@ -49,6 +53,7 @@
                         }
                     ]
                 },
+                
                 */
                 
                 
@@ -121,7 +126,7 @@
 
 
         var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
-        var icon = 'virus.png';
+        var icon = 'assets/virus.png';
 
 
         var marker = new google.maps.Marker({
@@ -164,4 +169,8 @@
 
 
 window.onload=initMap;
+
+
+
+
       

@@ -53,11 +53,8 @@
                                 <a href="#stats" class="nav-link">Stats</a>
                             </li>
                             <li class="nav-item">
-                              <a href="#news" class="nav-link">Latest News</a>
+                              <a href="#newsarticles" class="nav-link">Latest News</a>
                             </li>
-                            <li class="nav-item justify-content-end">
-                              <a href="#contact" class="nav-link">Contact</a>
-                          </li>
                         </ul>
                     </div>
                   </nav>
@@ -106,7 +103,7 @@
 
 
 
-            <div class="section-aboutcovid wrapper">
+            <div class="section-aboutcovid wrapper" id="stats">
 
                <div class="card-deck">
                   <div class="card border-0">
@@ -176,12 +173,30 @@
 
                </div>
 
+               <!--MAP-->
+
+               <!--
                <div id="map">
                                     
+               </div>
+               -->
+
+
+               <!--ARTICLES/NEWS STORIES-->
+
+               <div class="allarticlescon">
+                  <h2 id="newsarticles">News Articles</h2>
+                  <ul id="articles" class="wrapper"></ul>
                </div>
 
          </main>
 
+         <!--
+         <p class="article-source">The article source is: </p>
+         <p class="article-title">The article title is: </p>
+         <p class="article-desc">The article description is: </p>
+         <p class="newsarticles">The news article titles are: </p>
+         -->
 
    </body>
 
@@ -193,8 +208,9 @@
             <div id="last-footer">
                <div class="wrapper">
                   <p class="lastfootertext">Website designed and developed by <a href="https://www.shanakayhall.codes" target="new">Shanakay Hall</a> &copy; 2020 |
-                  
-                  Credits: <a href="https://www.ontario.ca/page/2019-novel-coronavirus" target="new">Ontario Website</a>, <a href="https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11" target="new">Ontario Covid-19 Data API</a>, <a href="https://www.freepik.com/free-vector/illustration-with-coronavirus-concept_7224909.htm#page=2&query=coronavirus&position=25" target="new">Freepik</a></p>
+                  </p>
+                  <p>
+                  Credits: <a href="https://www.ontario.ca/page/2019-novel-coronavirus" target="new">Ontario Website</a>, <a href="https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11" target="new">Ontario Covid-19 Data API</a>, <a href="https://www.freepik.com/free-vector/illustration-with-coronavirus-concept_7224909.htm#page=2&query=coronavirus&position=25" target="new">Freepik</a>, <a href="https://newsapi.org" target="new">News API</a></p>
                </div>
             </div> 
 
@@ -218,19 +234,19 @@
 
    <!--STATS API-->
    <script src="js/statsscript.js"></script>
-   <!--
-   <script async defer
-   src="https://api.smartable.ai/coronavirus/stats/CA-ON HTTP/1.1Cache-Control: no-cacheSubscription-Key: fa4cb3e91fa04405b764206734f8bfa6">
-   </script>
-   -->
 
+   <!--NEWS API-->
+   <script src="js/newsscript.js"></script>
 
    <!--Google Map API -->
+
+   <!--
    <script src="js/mapsscript.js"></script>
    <script async defer
    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDweZrwHfobfxVg9YK18m_tmxE2TrvyWQM&callback
    =initMap">
    </script>
+   -->
 
 
 
