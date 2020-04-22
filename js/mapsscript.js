@@ -1,6 +1,6 @@
-    // Function to be executed 
-    
-    
+   
+   
+   // Function to be executed 
     function initMap() {
 
         
@@ -27,7 +27,7 @@
         };
 
 
-
+        //display it in the div on the page
         var map = new google.maps.Map(document.getElementById('map'), {
 
             zoom: 7,
@@ -124,7 +124,7 @@
             content: torontoContent
           });
 
-
+        //changes the look of the icons on the map  
         var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
         var icon = 'assets/virus.png';
 
@@ -167,7 +167,7 @@
 
     }
 
-
+//loads the map when the page loads
 window.onload=initMap;
 
 

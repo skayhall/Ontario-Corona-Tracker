@@ -4,6 +4,8 @@ html {
     box-sizing: border-box;
     margin:0;
     padding:0;
+    /*cursor: url(../assets/virus.png);*/
+
 }
 
 body {
@@ -323,14 +325,28 @@ header {
 }
 
 
+#casesmap {
+    font-size:2em;
+    font-family: 'Lato';
+    font-weight:bold;
+    color:#29304e; 
+    text-align:center;
+    letter-spacing:3px;
+    padding-bottom:30px;
+    padding-top:50px;
+
+}
+
+
 #map {
     height:500px;
     width:70%;
     border:0px solid red;
+    border-radius:20px;
     padding:0;
     margin:0 auto;
-    margin-top:40px;
-    margin-bottom:40px;
+    margin-top:15px;
+    margin-bottom:5px;
     /*border-radius: 20px;*/
 }
 
@@ -437,7 +453,7 @@ header {
     text-align:center;
     letter-spacing:3px;
     padding-bottom:30px;
-    padding-top:40px;
+    padding-top:30px;
 
 }
 
