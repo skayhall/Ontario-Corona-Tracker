@@ -345,17 +345,43 @@ header {
         height:100%;
     }
 
+    #aboutcorona {
+        text-align:center;
+    }
+
     #section-aboutcovid {
-        background:#FFFFFF;
+        /*background:#FFFFFF;
         border-radius:0px;
         position:static;
         bottom:0px;
         text-align:center;
-        width:90%;
+        width:90%;*/
+        background:#f8faff;
+        bottom:140px;
+        text-align:center;
+        margin-top:50px;
+        padding-bottom:30px;
+        letter-spacing:0.50px;
+        /*width:70%;*/
+        /*border:1px solid purple;*/
+        display:flex;
+        flex-direction: column;
+
     }
     
     #aboutcoviddesc {
         text-align:left;
+    }
+
+    .aboutcovid-a {
+        display:none;
+    }
+
+    .aboutcovid-b {
+        width:100%;
+        display:block;
+        /*border:1px solid red;*/
+        /*border:1px solid pink;*/
     }
     
 
